@@ -13,33 +13,21 @@ Console.WriteLine("Введите третье число");
 str = Console.ReadLine();
 int c = int.Parse(str);
 Console.WriteLine();
+
 if (a > b && a > c)
 {
     Console.Write(a);
     Console.WriteLine(" = max");
 }
- else if (a == b && a != c)
- {
-    Console.Write(a);
-    Console.WriteLine(" = max");
- }
-if (b > a && b > c)
+
+else if (b > a && b > c)
 {
     Console.Write(b);
     Console.WriteLine(" = max");
 }
- else if (b == c && b != a)
- {
-    Console.Write(b);
-    Console.WriteLine(" = max");
- }
-if (c > b && c > a)
+
+else
 {
     Console.Write(c);
     Console.WriteLine(" = max");
 }
- else if (a == c)
- {
-    Console.Write(a);
-    Console.WriteLine(" = max");
- }
